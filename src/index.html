@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+    <div class="controls">
+        <div id="time" class="time"></div>
+        <button id="addMessageButton">添加留言</button>
+        <div id="messageForm" class="message-form">
+            <textarea id="messageInput" placeholder="写下你的留言..."></textarea>
+            <button id="submitMessage">提交</button>
+        </div>
+        <button id="toggleMessagesButton">折叠所有留言</button>
+        <div id="messages" class="messages"></div>
+    </div>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
